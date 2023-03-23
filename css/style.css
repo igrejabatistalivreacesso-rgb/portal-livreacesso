@@ -154,6 +154,31 @@ h1,
   letter-spacing: 0.075em;
 }
 
+@media only screen and (min-width: 600px) {
+  .logo {
+    background-image: url('../images/logo-batista-livre-acesso.png') repeat-x 0
+      0;
+  }
+  .logo img {
+    width: 20%;
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+  }
+}
+@media (min-width: 390px) and (max-width: 500px) {
+  .logo {
+    background-image: url('../images/logo-batista-livre-acesso.png') repeat-x 0
+      0;
+  }
+  .logo img {
+    width: 30%;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
 @media (min-width: 768px) {
   h1,
   .heading-1 {
@@ -14202,7 +14227,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar {
   display: none;
-  background: #ffffff;
+  background: #162e44;
 }
 
 .rd-navbar-toggle {
@@ -14243,7 +14268,7 @@ html.tablet .ui-to-top {
 .rd-navbar-toggle span {
   width: 24px;
   height: 3px;
-  background-color: #151515;
+  background-color: #fff;
   backface-visibility: hidden;
   border-radius: 0;
 }
@@ -14301,7 +14326,7 @@ html.tablet .ui-to-top {
   height: 6px;
   line-height: 6px;
   text-align: center;
-  background: #151515;
+  background: #fff;
   left: 50%;
   margin-left: -3px;
   border-radius: 50%;
@@ -15701,7 +15726,7 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-panel {
   color: #151515;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: #162e44;
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
@@ -15789,7 +15814,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-collapse {
-  background-color: #ffffff;
+  background-color: #162e44;
   box-shadow: 0 0 22px -4px rgba(0, 0, 0, 0.17);
 }
 
@@ -17932,7 +17957,8 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
-  background: #162e44;
+  background: #b0b0b0;
+  /* background: #162e44; */
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-nav-wrap {
@@ -19208,12 +19234,18 @@ html.rd-navbar-fixed-linked .page {
   width: 12px;
   height: 12px;
 }
-@media (width: 390px) {
+
+@media (min-width: 390px) and (max-width: 500px) {
   .bgprincipal {
     background-image: url('../images/bgprincipal.jpg');
   }
 }
-@media (width: 390px) {
+@media only screen and (min-width: 600px) {
+  .bgprincipal {
+    background-image: url('../images/slider-4-slide-1-1920x678.jpg');
+  }
+}
+@media (min-width: 390px) and (max-width: 500px) {
   .swiper-slider-corporate {
     min-height: 410px;
   }
